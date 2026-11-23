@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Paul - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Shivam Paul</div>
+
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="profile">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                 alt="Profile Image">
+
+            <div>
+                <h1>Hi, I'm Shivam Paul 👋</h1>
+                <p>
+                    I am passionate about technology, web development,
+                    and learning new digital skills. I enjoy creating
+                    websites using HTML, CSS, and JavaScript. My goal
+                    is to become a skilled professional and build
+                    creative digital projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Project Details</h2>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive website showcasing my profile, skills, and projects.</p>
+        </div>
+
+        <div class="project">
+            <h3>Interactive Recommendation Website</h3>
+            <p>A website where users can submit recommendations and view them dynamically.</p>
+        </div>
+
+        <div class="project">
+            <h3>JavaScript Interactive Webpage</h3>
+            <p>A webpage featuring interactive buttons and dynamic content using JavaScript.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <h3>CSS</h3>
+                <p>Web Styling</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <h3>JavaScript</h3>
+                <p>Web Interactivity</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                <h3>Python</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <h3>GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+
+        <div id="recommendation-list">
+
+            <div class="recommendation">
+                "Shivam is enthusiastic about learning new technologies
+                and consistently works to improve his skills."
+            </div>
+
+            <div class="recommendation">
+                "He has a strong interest in web development and enjoys
+                solving problems through creative ideas."
+            </div>
+
+            <div class="recommendation">
+                "Shivam demonstrates dedication, curiosity, and a
+                willingness to learn new skills."
+            </div>
+
+        </div>
+
+        <h3>Leave a Recommendation</h3>
+
+        <textarea id="new-recommendation"
+                  placeholder="Write your recommendation here..."></textarea>
+
+        <button onclick="addRecommendation()">Submit</button>
+    </section>
+
+    <!-- Home Button -->
+    <a href="#top" class="home-button">⌂</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Paul - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Shivam Paul</div>
+
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="profile">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                 alt="Profile Image">
+
+            <div>
+                <h1>Hi, I'm Shivam Paul 👋</h1>
+                <p>
+                    I am passionate about technology, web development,
+                    and learning new digital skills. I enjoy creating
+                    websites using HTML, CSS, and JavaScript. My goal
+                    is to become a skilled professional and build
+                    creative digital projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Project Details</h2>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive website showcasing my profile, skills, and projects.</p>
+        </div>
+
+        <div class="project">
+            <h3>Interactive Recommendation Website</h3>
+            <p>A website where users can submit recommendations and view them dynamically.</p>
+        </div>
+
+        <div class="project">
+            <h3>JavaScript Interactive Webpage</h3>
+            <p>A webpage featuring interactive buttons and dynamic content using JavaScript.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <h3>CSS</h3>
+                <p>Web Styling</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <h3>JavaScript</h3>
+                <p>Web Interactivity</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                <h3>Python</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <h3>GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+
+        <div id="recommendation-list">
+
+            <div class="recommendation">
+                "Shivam is enthusiastic about learning new technologies
+                and consistently works to improve his skills."
+            </div>
+
+            <div class="recommendation">
+                "He has a strong interest in web development and enjoys
+                solving problems through creative ideas."
+            </div>
+
+            <div class="recommendation">
+                "Shivam demonstrates dedication, curiosity, and a
+                willingness to learn new skills."
+            </div>
+
+        </div>
+
+        <h3>Leave a Recommendation</h3>
+
+        <textarea id="new-recommendation"
+                  placeholder="Write your recommendation here..."></textarea>
+
+        <button onclick="addRecommendation()">Submit</button>
+    </section>
+
+    <!-- Home Button -->
+    <a href="#top" class="home-button">⌂</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
